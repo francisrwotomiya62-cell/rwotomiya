@@ -1,0 +1,81 @@
+.rock{
+    width: 100%;
+    margin: 25px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content{
+    background-color: burlywood;
+    width: 100%;
+}
+.rock .header{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+.rock .header h1{
+    color: brown;
+    padding-top: 20;
+    font-size:255%;
+}
+.rock .header p{
+    margin-top: 15px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #000;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.content .card{
+    flex: 1;
+    border-radius: 95px;
+    margin: 80px 70px;
+    overflow: auto;
+    background-color: darkorange;
+    box-shadow: 0px 0px 5px 0px; rgba(0, 0, 0, 0.2);
+    height: 5%;
+}
+.content .card img{
+    width: 100%;
+    height: auto;
+}
+.content .card p{
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 10px; 
+    color: black;
+}
+.content .card h1{
+    text-align: center;
+}
+.content .card .footer1{
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+    justify-items: center;
+    background-color: brown;
+    justify-content: space-around;
+}
+.content .card .footer2{
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+    justify-items: center;
+    background-color: blue;
+    justify-content: space-around;
+}
+.content .card .footer3{
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+    justify-items: center;
+    background-color: chartreuse;
+    justify-content: space-around;
+}
