@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: bisque;
+    color:maroon;
+    text-align: center;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 45px;
+}
+input{
+    width: 75px;
+    height: 50px;
+    font-size: 45px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+}
+.btn:hover{
+    background-color: lightskyblue;
+    cursor: pointer
+}
+.calculator{
+    padding: 10px;
+    border-radius: auto;
+    
+}
